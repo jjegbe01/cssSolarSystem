@@ -17,7 +17,7 @@ html, body {
     /* Play with these numbers to see what it does */
     height: 200px;
     width: 200px;
-    margin-top: 100px; 
+    margin-top: -100px; 
     margin-left: -100px;
     border-color: orange;
     border-width: 2px;
@@ -49,21 +49,19 @@ html, body {
     /* For Section #2 */
     
     position: absolute;
-    top: 19%;
-    left: 31%;
+    top: 50%;
+    left: 50%;
 
     width: 500px;
     height: 500px;
-    
-    /*Animations*/
-     -webkit-animation: spin-right 10s linear infinite;
+
+ -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
           animation: spin-right 10s linear infinite;
 }
 
-/*Custom CSS animations*/
 @-webkit-keyframes spin-right {
   100% {
     -webkit-transform: rotate(360deg);
